@@ -117,15 +117,6 @@ export default function NIDForm() {
             </CardHeader>
             <CardContent className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div>
-                <Label htmlFor="form_number">ফরম নম্বর / Form Number</Label>
-                <Input
-                  id="form_number"
-                  name="form_number"
-                  value={formData.form_number}
-                  onChange={handleChange}
-                />
-              </div>
-              <div>
                 <Label htmlFor="voter_area_name">ভোটার এলাকার নাম / Voter Area Name</Label>
                 <Input
                   id="voter_area_name"
