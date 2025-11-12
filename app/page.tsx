@@ -111,7 +111,7 @@ export default function NIDForm() {
 
         <form onSubmit={handleSubmit} className="space-y-6">
           {/* Form Metadata */}
-          <Card>
+          {/* <Card>
             <CardHeader>
               <CardTitle>ফরম তথ্য / Form Information</CardTitle>
             </CardHeader>
@@ -135,7 +135,7 @@ export default function NIDForm() {
                 />
               </div>
             </CardContent>
-          </Card>
+          </Card> */}
 
           {/* Personal Information */}
           <Card>
